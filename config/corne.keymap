@@ -61,6 +61,16 @@
             bindings = <&kp RBRC>;
             key-positions = <30 31>;
         };
+
+        new_combo {
+            bindings = <&kp LG(LEFT)>;
+            key-positions = <16 15>;
+        };
+
+        new_combo {
+            bindings = <&kp LG(RIGHT)>;
+            key-positions = <19 20>;
+        };
     };
 
     macros {
