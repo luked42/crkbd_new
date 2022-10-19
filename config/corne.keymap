@@ -35,12 +35,12 @@
     combos {
         compatible = "zmk,combos";
 
-        rpar {
+        LWindowsKey {
             bindings = <&kp LCMD>;
             key-positions = <37 38>;
         };
 
-        lbkt {
+        lpar {
             bindings = <&kp LPAR>;
             key-positions = <16 17>;
         };
@@ -70,12 +70,12 @@
             key-positions = <30 31>;
         };
 
-        new_combo {
+        MoveWinLeft {
             bindings = <&kp LG(LEFT)>;
             key-positions = <27 28>;
         };
 
-        new_combo {
+        MoveWinRight {
             bindings = <&kp LG(RIGHT)>;
             key-positions = <31 32>;
         };
@@ -85,7 +85,7 @@
             key-positions = <19 20>;
         };
 
-        new_combo {
+        LeftDesktop {
             bindings = <&kp LG(LC(LEFT))>;
             key-positions = <16 15>;
         };
