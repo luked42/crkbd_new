@@ -9,6 +9,11 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/bt.h>
 
+&mt {
+    quick-tap-ms = <150>;
+    tapping-term-ms = <300>;
+};
+
 / {
     behaviors {
         hm: homerow_mods {
@@ -122,7 +127,7 @@
             bindings = <
     &kp F1     &kp F2     &kp F3     &kp F4       &kp F5         &kp F6            &kp F7    &kp F8  &kp F9    &kp F10  &kp F11  &kp F12
  &kp TILDE  &kp MINUS  &kp UNDER   &kp PLUS    &kp EQUAL  &kp LC(SPACE)          &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT   &trans   &trans
-    &trans     &trans     &trans  &kp LC(C)  &kp LS(INS)         &trans            &trans    &trans  &trans     &trans   &trans   &trans
+    &trans     &trans     &trans  &kp LC(C)  &kp LS(INS)       &kp HOME          &kp HOME    &trans  &trans     &trans   &trans   &trans
                                      &trans       &trans         &trans            &trans    &trans  &trans
             >;
         };
