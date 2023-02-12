@@ -10,13 +10,13 @@
 #include <dt-bindings/zmk/bt.h>
 
 &lt {
-    quick-tap-ms = <100>;
+    quick-tap-ms = <140>;
     tapping-term-ms = <150>;
 };
 
 &mt {
     flavor = "balanced";
-    quick-tap-ms = <100>;
+    quick-tap-ms = <140>;
     tapping-term-ms = <150>;
 };
 
